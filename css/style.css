@@ -5,11 +5,17 @@
  
 section {
     padding: 100px 0;
+    font-family: 'Anek Latin', sans-serif;
 }
 
 header {
     padding: 50px 0;
+    font-family: 'Anek Latin', sans-serif;
+}
 
+footer {
+    padding: 15px 0;
+    font-family: 'Anek Latin', sans-serif;
 }
 
 header, footer {
@@ -21,25 +27,24 @@ header, footer {
     background-size: contain;
 }
 
-footer {
-    padding: 15px 0;
-}
-
 .about {
     padding-bottom: 100px;
+    font-family: 'Anek Latin', sans-serif;
 }
 
-.text {
+.welcome {
     background-color: #eee;
+    font-family: 'Anek Latin', sans-serif;
 }
  
 .thingsbuilt {
     background-color: #eee;
-
+    font-family: 'Anek Latin', sans-serif;
 }
 
 .email {
     background-color: white;
+    font-family: 'Anek Latin', sans-serif;
 }
 
 .thingsbuilt i{
@@ -73,6 +78,13 @@ footer {
     margin: 15px auto 30px;
 }
 
+.long-line {
+    width: 450px;
+    height: 3px;
+    background: var(--color1);
+    margin: 15px auto 0;
+}
+
 .color2 {
     color: var(--color2);
 }
@@ -92,3 +104,4 @@ footer {
 .itd_img {
     max-width: 280px;
 }
+
