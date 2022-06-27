@@ -79,7 +79,7 @@ header, footer {
 }
 
 .long-line {
-    width: 450px;
+    max-width: 450px;
     height: 3px;
     background: var(--color1);
     margin: 15px auto 0;
@@ -102,6 +102,6 @@ header, footer {
 }
 
 .itd_img {
-    max-width: 280px;
+    max-width: 260px;
 }
 
