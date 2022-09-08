@@ -17,19 +17,24 @@
 
 <body>  
     <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center mt-2">
-                    <a href="https://vk.com/anothersnn" target="_blank" class="btn btn-outline-light" 
-                    data-bs-toggle="tooltip" data-bs-placement="bottom" title="VK"> <i class="icon-vkontakte"> </i> </a>
-                    <a href="https://t.me/anothersnn" target="_blank" class="btn btn-outline-light" 
-                    data-bs-toggle="tooltip" data-bs-placement="bottom" title="Telegram"> <i class="icon-paper-plane"> </i> </a>
-                    <a href="https://github.com/anothersnn" target="_blank" class="btn btn-outline-light" 
-                    data-bs-toggle="tooltip" data-bs-placement="bottom" title="Github"> <i class="icon-github-circled"> </i> </a>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-white bg-white">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Переключатель навигации">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav fs-6">
+                    <a class="nav-link active" aria-current="page" href="#"> // </a>
+                    <a class="nav-link" aria-current="page" href="#about"> About </a>
+                    <a class="nav-link" aria-current="page" href="#projects"> Projects </a>
+                    <a class="nav-link" aria-current="page" href="#contacts"> Contacts </a>
                 </div>
+              </div>
             </div>
-        </div>
+          </nav>
     </header>
+
+ 
 
     <section class="welcome">
         <div class="container">
@@ -41,15 +46,11 @@
                     <h5 class="mt-4 text-center"> BASED IN MOSCOW </h5>
                     <p class="mt-4 text-center"> ANOTHERSNN © </p>
                 </div>
-                <!-- <div class="col-xl-3 col-lg-12 float-start ">
-                    <img src="img/logoleft.png" alt="logoleft" class="img-fluid itd_img">
-                    <img src="img/logoright.png" alt="logoright" class="img-fluid itd_img">
-                </div> -->
             </div>
         </div>
     </section>
 
-    <section class="about">
+    <section class="about" id="about">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -80,7 +81,7 @@
         </div>
     </section>
 
-    <section class="thingsbuilt">
+    <section class="thingsbuilt" id="projects">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -136,7 +137,7 @@
         </div>
     </section>
 
-    <section class="email">
+    <section class="email" id="contacts">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -150,24 +151,25 @@
                     </div>
                     <a href="mailto:ar2d1@yandex.ru?subject=Offer of cooperation&body=Hello, Stephan," target="_blank" 
                     class="btn btn-itd btn-lg btn-outline-danger mt-5" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Send me a message"> <i class="icon-mail-alt"> </i> </a>
+                    <div class="text-center mt-5">
+                        <h5> You can also contact me via social networks: </h5>
+                        <div class="col-12 text-center mt-5">
+                            <a href="https://vk.com/anothersnn" target="_blank" class="btn color1 btn-outline-danger" style="--bs-btn-padding-y: .4rem; --bs-btn-padding-x: .85rem; --bs-btn-font-size: 1.1rem;"
+                            data-bs-toggle="tooltip" data-bs-placement="bottom" title="VK"> <i class="icon-vkontakte"> </i> </a>
+                            <a href="https://t.me/anothersnn" target="_blank" class="btn color1 btn-outline-danger" style="--bs-btn-padding-y: .4rem; --bs-btn-padding-x: .85rem; --bs-btn-font-size: 1.1rem;"
+                            data-bs-toggle="tooltip" data-bs-placement="bottom" title="Telegram"> <i class="icon-paper-plane"> </i> </a>
+                            <a href="https://twitter.com" target="_blank" class="btn color1 btn-outline-danger" style="--bs-btn-padding-y: .4rem; --bs-btn-padding-x: .85rem; --bs-btn-font-size: 1.1rem;"
+                            data-bs-toggle="tooltip" data-bs-placement="bottom" title="Twitter"> <i class="icon-twitter"> </i> </a>
+                        </div>
+                    </div>
             </div>
     </section>
 
     <footer id="footer">
         <div class="container">
             <div class="row">
-                <div class="col-12 text-center mt-2">
-                    <a href="https://vk.com/anothersnn" target="_blank" class="btn btn-outline-light" 
-                    data-bs-toggle="tooltip" data-bs-placement="bottom" title="VK"> <i class="icon-vkontakte"> </i> </a>
-                    <a href="https://t.me/anothersnn" target="_blank" class="btn btn-outline-light" 
-                    data-bs-toggle="tooltip" data-bs-placement="bottom" title="Telegram"> <i class="icon-paper-plane"> </i> </a>
-                    <a href="https://github.com/anothersnn" target="_blank" class="btn btn-outline-light" 
-                    data-bs-toggle="tooltip" data-bs-placement="bottom" title="Github"> <i class="icon-github-circled"> </i> </a>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <p class="text-center text-white mt-4"> Copyright 2022 © anotherSNN, All Right Reserved </p>
-                    </div>
+                <div class="col-12">
+                    <p class="text-center text-white mt-4"> Copyright 2022 © anotherSNN, All Right Reserved </p>
                 </div>
             </div>
         </div>

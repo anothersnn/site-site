@@ -9,6 +9,7 @@ section {
 }
 
 header {
+    margin-top: 30px;
     padding: 50px 0;
     font-family: 'Anek Latin', sans-serif;
 }
@@ -105,3 +106,6 @@ header, footer {
     max-width: 260px;
 }
 
+.itd_img2 {
+    max-width: 50px;
+}
